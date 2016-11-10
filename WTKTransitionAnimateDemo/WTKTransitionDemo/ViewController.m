@@ -33,7 +33,7 @@
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     self.navigationController.delegate = [WTKTransition shareManager];
-    
+    [WTKTransition shareManager].animationType = WTKAnimateTypeDiffNavi;
    
     
 }
