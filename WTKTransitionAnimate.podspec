@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 # 名称 使用的时候pod search [name]
-s.name = "WTKTransition"
+s.name = "WTKTransitionAnimate"
 # 代码库的版本
 s.version = "1.0.0"
 # 简介

@@ -96,7 +96,6 @@
     }
     
     CGRect frame                = CGRectMake(w_kWidth / 2.0 - 0.5, w_kHeight / 2.0 - 0.5, 1, 1);
-    float radiu                 = sqrtf(w_kHeight * w_kHeight / 4.0 + w_kWidth * w_kWidth / 4.0);
     UIBezierPath *startPath     = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(-w_kWidth / 4.0, -w_kHeight / 4.0, w_kWidth * 1.5, w_kHeight * 1.5)];
     UIBezierPath *endPath       = [UIBezierPath bezierPathWithOvalInRect:frame];
     
