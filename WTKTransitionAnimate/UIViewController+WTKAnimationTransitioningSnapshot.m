@@ -36,9 +36,6 @@
     static BOOL w_isDragging = NO;
     CGFloat progress = [recognizer translationInView:self.view].x / CGRectGetWidth(self.view.frame);
     progress = MIN(1.0, MAX(0.0, progress));
-    NSLog(@"progress---%.2f  w_isDragging--%d",progress,w_isDragging);
-    NSLog(@"state = %ld",recognizer.state);
-    NSLog(@"frame.x = %.2f",[recognizer translationInView:self.view].x);
     if (progress <= 0 && !w_isDragging && recognizer.state != UIGestureRecognizerStateBegan) {
         return;
     }
